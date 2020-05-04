@@ -17,8 +17,8 @@ import lombok.experimental.Accessors;
  * 订单中所包含的商品
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -111,7 +111,7 @@ public class OrderItem implements Serializable {
     @TableField("gift_growth")
     private Integer giftGrowth;
 
-   // @ApiModelProperty(value = "商品销售属性:[{"key":"颜色","value":"颜色"},{"key":"容量","value":"4G"}]")
+    @ApiModelProperty(value = "商品销售属性:[{\"key\":\"颜色\",\"value\":\"颜色\"},{\"key\":\"容量\",\"value\":\"4G\"}]")
     @TableField("product_attr")
     private String productAttr;
 

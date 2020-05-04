@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 产品满减表(只针对同商品) 服务类
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 public interface ProductFullReductionService extends IService<ProductFullReduction> {
 

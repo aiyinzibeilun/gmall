@@ -1,9 +1,9 @@
 package com.atguigu.gmall.cms.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-
+import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
-
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
@@ -17,8 +17,8 @@ import lombok.experimental.Accessors;
  * 用户举报表
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

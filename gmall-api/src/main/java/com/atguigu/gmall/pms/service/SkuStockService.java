@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * sku的库存 服务类
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 public interface SkuStockService extends IService<SkuStock> {
 

@@ -19,7 +19,7 @@ public class CodeGenerator {
 
     public static void main(String[] args) {
 
-        String moduleName = "sms";
+        String moduleName = "pms";
 
         // 1、创建代码生成器
         AutoGenerator mpg = new AutoGenerator();
@@ -27,8 +27,8 @@ public class CodeGenerator {
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir("G:\\workspace\\idea\\com.atguigu.gmall-parent\\com.atguigu.gmall-mbg" + "/src/main/java");
-        gc.setAuthor("Lfy");
+        gc.setOutputDir("G:\\gmall-parent\\gmall-mbg" + "/src/main/java");
+        gc.setAuthor("yzg");
         gc.setOpen(false); //生成后是否打开资源管理器
         gc.setFileOverride(false); //重新生成时文件是否覆盖
         gc.setServiceName("%sService");	//去掉Service接口的首字母I
@@ -41,7 +41,7 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://192.168.159.128:3307/gmall_"+moduleName+"?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://192.168.2.38:3307/gmall_"+moduleName+"?useUnicode=true&useSSL=false&characterEncoding=utf8");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
@@ -51,7 +51,7 @@ public class CodeGenerator {
         // 4、包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(moduleName); //模块名
-        pc.setParent("com/atguigu/gmall");
+        pc.setParent("com.atguigu.gmall");
         pc.setController("controller");
         pc.setEntity("entity");
         pc.setService("service");

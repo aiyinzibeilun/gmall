@@ -1,0 +1,16 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: root
+#    url: jdbc:mysql://192.168.2.38:3307/gmall_pms?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+dubbo:
+  consumer:
+    check: false
+  application:
+    name: gmall-pms
+  registry:
+    address: zookeeper://192.168.2.38:2181
+  protocol:
+    port: 20880
+    name: dubbo

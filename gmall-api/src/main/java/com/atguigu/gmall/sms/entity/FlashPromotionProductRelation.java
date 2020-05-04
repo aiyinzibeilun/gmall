@@ -17,8 +17,8 @@ import lombok.experimental.Accessors;
  * 商品限时购与商品关系表
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

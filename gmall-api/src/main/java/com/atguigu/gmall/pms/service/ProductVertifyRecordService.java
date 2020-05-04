@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 商品审核记录 服务类
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 public interface ProductVertifyRecordService extends IService<ProductVertifyRecord> {
 

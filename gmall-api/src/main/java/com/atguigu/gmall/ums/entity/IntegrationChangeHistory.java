@@ -17,8 +17,8 @@ import lombok.experimental.Accessors;
  * 积分变化历史记录表
  * </p>
  *
- * @author Lfy
- * @since 2019-05-08
+ * @author yzg
+ * @since 2020-05-03
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
